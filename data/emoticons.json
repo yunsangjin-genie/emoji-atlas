@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "cute-001",
+    "text": "(｡♥‿♥｡)",
+    "category": "cute",
+    "subcategory": "love",
+    "names": {
+      "ko": "하트 가득한 얼굴",
+      "en": "Heart Eyes Emoticon",
+      "ja": "ハートいっぱいの顔",
+      "zh-Hans": "满心爱意",
+      "zh-Hant": "滿心愛意",
+      "es": "Emoticono de amor",
+      "fr": "Émoticône amoureux",
+      "de": "Liebes-Emoticon"
+    },
+    "keywords": {
+      "ko": ["귀여운", "사랑", "하트", "애정", "이모티콘"],
+      "en": ["cute", "love", "heart", "adorable", "sweet"],
+      "ja": ["かわいい", "愛", "ハート", "キュート"],
+      "zh-Hans": ["可爱", "爱", "心", "甜蜜"],
+      "zh-Hant": ["可愛", "愛", "心", "甜蜜"],
+      "es": ["lindo", "amor", "corazón", "adorable"],
+      "fr": ["mignon", "amour", "cœur", "adorable"],
+      "de": ["süß", "Liebe", "Herz", "niedlich"]
+    },
+    "tags": ["cute", "love", "heart"]
+  },
+  {
+    "id": "cute-002",
+    "text": "(✿◠‿◠)",
+    "category": "cute",
+    "subcategory": "smile",
+    "names": {
+      "ko": "꽃미소 짓는 얼굴",
+      "en": "Flower Smile",
+      "ja": "お花スマイル",
+      "zh-Hans": "鲜花微笑",
+      "zh-Hant": "鮮花微笑",
+      "es": "Sonrisa con flor",
+      "fr": "Sourire fleuri",
+      "de": "Blumenlächeln"
+    },
+    "keywords": {
+      "ko": ["꽃", "미소", "귀여운", "화사한", "상냥한"],
+      "en": ["flower", "smile", "cute", "gentle", "sweet"],
+      "ja": ["花", "笑顔", "かわいい", "優しい"],
+      "zh-Hans": ["花", "微笑", "可爱", "温柔"],
+      "zh-Hant": ["花", "微笑", "可愛", "溫柔"],
+      "es": ["flor", "sonrisa", "lindo", "tierno"],
+      "fr": ["fleur", "sourire", "mignon", "doux"],
+      "de": ["Blume", "Lächeln", "süß", "sanft"]
+    },
+    "tags": ["cute", "flower", "gentle"]
+  },
+  {
+    "id": "cute-003",
+    "text": "(づ｡◕‿‿◕｡)づ",
+    "category": "cute",
+    "subcategory": "hug",
+    "names": {
+      "ko": "두 팔 벌려 안아주기",
+      "en": "Big Hug Emoticon",
+      "ja": "ぎゅーっと抱きしめ",
+      "zh-Hans": "张臂拥抱",
+      "zh-Hant": "張臂擁抱",
+      "es": "Abrazo grande y tierno",
+      "fr": "Câlin tout doux",
+      "de": "Kuschelige Umarmung"
+    },
+    "keywords": {
+      "ko": ["포옹", "안아줘", "귀여운", "사랑스러운", "따뜻한"],
+      "en": ["hug", "cuddle", "cute", "embrace", "warm"],
+      "ja": ["ハグ", "抱っこ", "かわいい", "ぬくもり"],
+      "zh-Hans": ["抱抱", "拥抱", "可爱", "温暖"],
+      "zh-Hant": ["抱抱", "擁抱", "可愛", "溫暖"],
+      "es": ["abrazo", "cariño", "lindo", "tierno"],
+      "fr": ["câlin", "étreinte", "mignon", "chaleureux"],
+      "de": ["Umarmung", "Kuscheln", "süß", "herzlich"]
+    },
+    "tags": ["cute", "hug", "warm"]
+  },
+  {
+    "id": "cute-004",
+    "text": "(´｡• ᵕ •｡`)",
+    "category": "cute",
+    "subcategory": "blush",
+    "names": {
+      "ko": "발그레한 수줍은 미소",
+      "en": "Soft Blush Face",
+      "ja": "ほんのり照れ笑い",
+      "zh-Hans": "害羞脸红",
+      "zh-Hant": "害羞臉紅",
+      "es": "Rubor suave tímido",
+      "fr": "Rougeur timide",
+      "de": "Sanftes Erröten"
+    },
+    "keywords": {
+      "ko": ["수줍은", "부끄러운", "볼홍조", "귀여운", "순수한"],
+      "en": ["shy", "blush", "cute", "soft", "innocent"],
+      "ja": ["照れ", "恥ずかしい", "かわいい", "純粋"],
+      "zh-Hans": ["害羞", "脸红", "可爱", "纯真"],
+      "zh-Hant": ["害羞", "臉紅", "可愛", "純真"],
+      "es": ["tímido", "sonrojado", "lindo", "dulce"],
+      "fr": ["timide", "rougissant", "mignon", "innocent"],
+      "de": ["schüchtern", "erröten", "süß", "unschuldig"]
+    },
+    "tags": ["cute", "blush", "shy"]
+  },
+  {
+    "id": "cute-005",
+    "text": "(๑>ᴗ<๑)",
+    "category": "cute",
+    "subcategory": "wink",
+    "names": {
+      "ko": "사랑스러운 윙크",
+      "en": "Playful Wink",
+      "ja": "ウインク笑顔",
+      "zh-Hans": "调皮眨眼",
+      "zh-Hant": "調皮眨眼",
+      "es": "Guiño juguetón",
+      "fr": "Clin d’œil mignon",
+      "de": "Freches Zwinkern"
+    },
+    "keywords": {
+      "ko": ["윙크", "깜찍한", "귀여운", "발랄한", "미소"],
+      "en": ["wink", "playful", "cute", "cheerful", "happy"],
+      "ja": ["ウインク", "愛嬌", "かわいい", "明るい"],
+      "zh-Hans": ["眨眼", "俏皮", "可爱", "欢快"],
+      "zh-Hant": ["眨眼", "俏皮", "可愛", "歡快"],
+      "es": ["guiño", "juguetón", "lindo", "animado"],
+      "fr": ["clin d'œil", "espiègle", "mignon", "joyeux"],
+      "de": ["Zwinkern", "verspielt", "süß", "munter"]
+    },
+    "tags": ["cute", "wink", "playful"]
+  },
+  {
+    "id": "cute-006",
+    "text": "(◍•ᴗ•◍)",
+    "category": "cute",
+    "subcategory": "smile",
+    "names": {
+      "ko": "동글동글 방긋 미소",
+      "en": "Cheerful Round Face",
+      "ja": "にっこり丸顔",
+      "zh-Hans": "圆脸盈盈笑",
+      "zh-Hant": "圓臉盈盈笑",
+      "es": "Cara risueña",
+      "fr": "Sourire radieux",
+      "de": "Strahlemann"
+    },
+    "keywords": {
+      "ko": ["방긋", "동글동글", "귀여운", "맑은미소", "해맑은"],
+      "en": ["cheerful", "round", "cute", "beaming", "soft"],
+      "ja": ["にっこり", "丸顔", "かわいい", "ほのぼの"],
+      "zh-Hans": ["笑脸", "圆脸", "可爱", "阳光"],
+      "zh-Hant": ["笑臉", "圓臉", "可愛", "陽光"],
+      "es": ["sonriente", "redondo", "lindo", "alegre"],
+      "fr": ["rayonnant", "mignon", "souriant", "paisible"],
+      "de": ["fröhlich", "süß", "Lächeln", "rund"]
+    },
+    "tags": ["cute", "cheerful", "smile"]
+  },
+  {
+    "id": "love-001",
+    "text": "(♥ω♥*)",
+    "category": "love",
+    "subcategory": "heart",
+    "names": {
+      "ko": "사랑에 푹 빠진 얼굴",
+      "en": "In Love Daze",
+      "ja": "愛に満ちたうっとり顔",
+      "zh-Hans": "陶醉爱意",
+      "zh-Hant": "陶醉愛意",
+      "es": "Enamorado fascinado",
+      "fr": "Éperdument amoureux",
+      "de": "Verliebt und verzaubert"
+    },
+    "keywords": {
+      "ko": ["사랑", "하트", "반함", "홀딱", "애정"],
+      "en": ["love", "infatuated", "heart", "crush", "sweet"],
+      "ja": ["愛", "ハート", "メロメロ", "恋"],
+      "zh-Hans": ["爱", "心动", "陶醉", "恋爱"],
+      "zh-Hant": ["愛", "心動", "陶醉", "戀愛"],
+      "es": ["amor", "enamorado", "corazón", "flechazo"],
+      "fr": ["amour", "amoureux", "cœur", "passion"],
+      "de": ["Liebe", "verliebt", "Herz", "Schwärmerei"]
+    },
+    "tags": ["love", "heart", "crush"]
+  },
+  {
+    "id": "love-002",
+    "text": "(っ˘з(˘⌣˘ )",
+    "category": "love",
+    "subcategory": "kiss",
+    "names": {
+      "ko": "다정한 커플 뽀뽀",
+      "en": "Sweet Couple Kiss",
+      "ja": "恋人同士の優しいキス",
+      "zh-Hans": "甜蜜情侣亲亲",
+      "zh-Hant": "甜蜜情侶親親",
+      "es": "Beso tierno de pareja",
+      "fr": "Baiser tendre en couple",
+      "de": "Zärtlicher Pärchenkuss"
+    },
+    "keywords": {
+      "ko": ["뽀뽀", "키스", "커플", "사랑", "포옹"],
+      "en": ["kiss", "couple", "love", "sweet", "affection"],
+      "ja": ["キス", "恋人", "カップル", "愛", "抱き合う"],
+      "zh-Hans": ["亲吻", "情侣", "接吻", "爱意", "依偎"],
+      "zh-Hant": ["親吻", "情侶", "接吻", "愛意", "依偎"],
+      "es": ["beso", "pareja", "amor", "cariño", "abrazar"],
+      "fr": ["baiser", "couple", "amour", "tendresse", "bisou"],
+      "de": ["Kuss", "Pärchen", "Liebe", "Zärtlichkeit", "Küsschen"]
+    },
+    "tags": ["love", "kiss", "couple"]
+  },
+  {
+    "id": "love-003",
+    "text": "( ˘ ³˘)♥",
+    "category": "love",
+    "subcategory": "kiss",
+    "names": {
+      "ko": "사랑을 담은 하트 입맞춤",
+      "en": "Kiss with Heart",
+      "ja": "ハートの投げキッス",
+      "zh-Hans": "送出爱心飞吻",
+      "zh-Hant": "送出愛心飛吻",
+      "es": "Beso volado con amor",
+      "fr": "Bisou avec cœur",
+      "de": "Küsschen mit Herz"
+    },
+    "keywords": {
+      "ko": ["입술", "쪽", "하트", "뽀뽀", "비쥬"],
+      "en": ["blow kiss", "heart", "love", "smooch", "affection"],
+      "ja": ["チュッ", "投げキッス", "ハート", "愛"],
+      "zh-Hans": ["飞吻", "爱心", "么么哒", "亲亲"],
+      "zh-Hant": ["飛吻", "愛心", "麼麼噠", "親親"],
+      "es": ["beso", "corazón", "amor", "mimo"],
+      "fr": ["bisou", "cœur", "amour", "baiser volant"],
+      "de": ["Kuss", "Herz", "Liebe", "Schmatzer"]
+    },
+    "tags": ["love", "kiss", "heart"]
+  },
+  {
+    "id": "love-004",
+    "text": "(♡˙︶˙♡)",
+    "category": "love",
+    "subcategory": "heart",
+    "names": {
+      "ko": "하트 품은 온화한 미소",
+      "en": "Gentle Heart Smile",
+      "ja": "ハートを抱く穏やかな笑顔",
+      "zh-Hans": "心怀温情微笑",
+      "zh-Hant": "心懷溫情微笑",
+      "es": "Sonrisa cálida con amor",
+      "fr": "Sourire serein avec cœur",
+      "de": "Sanftes Lächeln mit Herz"
+    },
+    "keywords": {
+      "ko": ["하트", "사랑", "따뜻한", "미소", "포근한"],
+      "en": ["heart", "love", "gentle", "peaceful", "affection"],
+      "ja": ["ハート", "温かい", "笑顔", "愛", "平和"],
+      "zh-Hans": ["心形", "温情", "爱", "微笑", "舒适"],
+      "zh-Hant": ["心形", "溫情", "愛", "微笑", "舒適"],
+      "es": ["corazón", "amor", "tranquilo", "sonrisa"],
+      "fr": ["cœur", "amour", "doux", "serein"],
+      "de": ["Herz", "Liebe", "sanft", "warm"]
+    },
+    "tags": ["love", "heart", "smile"]
+  },
+  {
+    "id": "love-005",
+    "text": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+    "category": "love",
+    "subcategory": "blush",
+    "names": {
+      "ko": "볼이 빨개진 부끄러움",
+      "en": "Flushed with Love",
+      "ja": "真っ赤になって大照れ",
+      "zh-Hans": "羞涩脸红透",
+      "zh-Hant": "羞澀臉紅透",
+      "es": "Completamente sonrojado",
+      "fr": "Rouge de timidité amoureuse",
+      "de": "Tiefrot vor Verliebtheit"
+    },
+    "keywords": {
+      "ko": ["부끄러움", "홍조", "사랑", "설렘", "두근두근"],
+      "en": ["blushing", "flushed", "crush", "shy", "love"],
+      "ja": ["赤面", "照れる", "恥ずかしい", "恋心"],
+      "zh-Hans": ["脸红", "害羞", "心动", "脸烧"],
+      "zh-Hant": ["臉紅", "害羞", "心動", "臉燒"],
+      "es": ["sonrojo", "tímido", "amor", "emoción"],
+      "fr": ["rougeur", "timide", "amour", "émoi"],
+      "de": ["Erröten", "schüchtern", "verliebt", "Herzklopfen"]
+    },
+    "tags": ["love", "blush", "shy"]
+  },
+  {
+    "id": "love-006",
+    "text": "(❤ω❤)",
+    "category": "love",
+    "subcategory": "heart",
+    "names": {
+      "ko": "반짝이는 하트 눈",
+      "en": "Sparkling Heart Eyes",
+      "ja": "キラキラハートの瞳",
+      "zh-Hans": "闪亮爱心双眼",
+      "zh-Hant": "閃亮愛心雙眼",
+      "es": "Ojos brillantes de corazón",
+      "fr": "Yeux en cœur étincelants",
+      "de": "Funkelnde Herzaugen"
+    },
+    "keywords": {
+      "ko": ["하트눈", "반짝", "사랑", "애정", "설렘"],
+      "en": ["heart eyes", "sparkle", "love", "adoration", "crush"],
+      "ja": ["ハート目", "キラキラ", "恋", "愛"],
+      "zh-Hans": ["爱心眼", "闪亮", "恋爱", "倾心"],
+      "zh-Hant": ["愛心眼", "閃亮", "戀愛", "傾心"],
+      "es": ["ojos de corazón", "brillo", "amor", "admiración"],
+      "fr": ["yeux cœur", "étincelle", "amour", "passion"],
+      "de": ["Herzaugen", "Funkeln", "Liebe", "Begeisterung"]
+    },
+    "tags": ["love", "heart", "eyes"]
+  },
+  {
+    "id": "funny-001",
+    "text": "¯\\_(ツ)_/¯",
+    "category": "funny",
+    "subcategory": "shrug",
+    "names": {
+      "ko": "어깨 으쓱 (어쩌라고)",
+      "en": "Classic Shrug",
+      "ja": "肩をすくめる (やれやれ)",
+      "zh-Hans": "经典耸肩 (怪我咯)",
+      "zh-Hant": "經典聳肩 (怪我囉)",
+      "es": "Encogimiento de hombros",
+      "fr": "Haussement d'épaules",
+      "de": "Klassisches Achselzucken"
+    },
+    "keywords": {
+      "ko": ["어깨으쓱", "어쩌라고", "몰라", "웃긴", "슈러그"],
+      "en": ["shrug", "dunno", "whatever", "funny", "carefree"],
+      "ja": ["やれやれ", "知らない", "肩すかし", "ウケる"],
+      "zh-Hans": ["耸肩", "无所谓", "不知道", "滑稽"],
+      "zh-Hant": ["聳肩", "無所謂", "不知道", "滑稽"],
+      "es": ["hombros", "no sé", "gracioso", "despreocupado"],
+      "fr": ["haussement", "sais pas", "drôle", "moyen"],
+      "de": ["Achselzucken", "keine Ahnung", "egal", "witzig"]
+    },
+    "tags": ["funny", "shrug", "casual"]
+  },
+  {
+    "id": "funny-002",
+    "text": "( ͡° ͜ʖ ͡°)",
+    "category": "funny",
+    "subcategory": "lenny",
+    "names": {
+      "ko": "음흉한 레니 페이스",
+      "en": "Lenny Face",
+      "ja": "レニーフェイス (ニヤリ)",
+      "zh-Hans": "经典滑稽脸 (Lenny)",
+      "zh-Hant": "經典滑稽臉 (Lenny)",
+      "es": "Cara de pillo (Lenny)",
+      "fr": "Visage malicieux Lenny",
+      "de": "Lenny Face (Schelmisches Grinsen)"
+    },
+    "keywords": {
+      "ko": ["레니", "음흉", "웃긴", "장난", "meme", "밈"],
+      "en": ["lenny", "smirk", "meme", "mischievous", "funny"],
+      "ja": ["レニー", "ニヤリ", "ミーム", "ネタ"],
+      "zh-Hans": ["滑稽", "梗", "搞怪", "偷笑"],
+      "zh-Hant": ["滑稽", "梗", "搞怪", "偷笑"],
+      "es": ["lenny", "pícaro", "meme", "gracioso"],
+      "fr": ["lenny", "sourire en coin", "mème", "malicieux"],
+      "de": ["Lenny", "Grinsen", "Meme", "schelmisch"]
+    },
+    "tags": ["funny", "meme", "smirk"]
+  },
+  {
+    "id": "funny-003",
+    "text": "(╯°□°）╯︵ ┻━┻",
+    "category": "funny",
+    "subcategory": "table-flip",
+    "names": {
+      "ko": "분노의 밥상 뒤엎기",
+      "en": "Angry Table Flip",
+      "ja": "怒りのちゃぶ台返し",
+      "zh-Hans": "掀桌狂暴",
+      "zh-Hant": "掀桌狂暴",
+      "es": "Lanzar mesa cómicamente",
+      "fr": "Renverser la table avec rage",
+      "de": "Tisch umwerfen vor Wut"
+    },
+    "keywords": {
+      "ko": ["밥상뒤엎기", "테이블", "웃긴", "격노", "밈"],
+      "en": ["table flip", "rage", "funny", "meme", "flip"],
+      "ja": ["ちゃぶ台返し", "激怒", "ネタ", "テーブル"],
+      "zh-Hans": ["掀桌", "狂暴", "搞笑", "表情包"],
+      "zh-Hant": ["掀桌", "狂暴", "搞笑", "表情包"],
+      "es": ["voltear mesa", "furia", "meme", "gracioso"],
+      "fr": ["table flip", "colère", "mème", "drôle"],
+      "de": ["Tisch umwerfen", "Wut", "Meme", "humorvoll"]
+    },
+    "tags": ["funny", "table-flip", "rage"]
+  },
+  {
+    "id": "funny-004",
+    "text": "┬─┬ノ( º _ ºノ)",
+    "category": "funny",
+    "subcategory": "table-flip",
+    "names": {
+      "ko": "조용히 테이블 원위치",
+      "en": "Put Table Back",
+      "ja": "ちゃぶ台をそっと戻す",
+      "zh-Hans": "默默放好桌子",
+      "zh-Hant": "默默放好桌子",
+      "es": "Colocar la mesa de vuelta",
+      "fr": "Remettre sagement la table",
+      "de": "Tisch brav hinstellen"
+    },
+    "keywords": {
+      "ko": ["테이블원위치", "정리", "평화", "웃긴", "차분"],
+      "en": ["put table back", "calm", "respect tables", "funny", "peace"],
+      "ja": ["元通り", "落ち着く", "ネタ", "平和"],
+      "zh-Hans": ["放好桌子", "冷静", "文明", "搞笑"],
+      "zh-Hant": ["放好桌子", "冷靜", "文明", "搞笑"],
+      "es": ["ordenar mesa", "calma", "meme", "paz"],
+      "fr": ["remettre table", "calme", "mème", "drôle"],
+      "de": ["Tisch aufstellen", "Ruhe", "Meme", "Höflichkeit"]
+    },
+    "tags": ["funny", "table-flip", "calm"]
+  },
+  {
+    "id": "funny-005",
+    "text": "ヽ(°◇° )ノ",
+    "category": "funny",
+    "subcategory": "dance",
+    "names": {
+      "ko": "엉뚱하고 유쾌한 춤",
+      "en": "Goofy Dance",
+      "ja": "へんてこダンス",
+      "zh-Hans": "古怪搞笑狂舞",
+      "zh-Hant": "古怪搞笑狂舞",
+      "es": "Baile chistoso y torpe",
+      "fr": "Danse loufoque",
+      "de": "Alberner Freudentanz"
+    },
+    "keywords": {
+      "ko": ["엉뚱한", "춤", "유쾌한", "웃긴", "신남"],
+      "en": ["goofy", "dance", "funny", "weird", "silly"],
+      "ja": ["へんてこ", "ダンス", "変", "おもしろい"],
+      "zh-Hans": ["滑稽", "跳舞", "搞怪", "滑稽舞"],
+      "zh-Hant": ["滑稽", "跳舞", "搞怪", "滑稽舞"],
+      "es": ["torpe", "baile", "gracioso", "payaso"],
+      "fr": ["loufoque", "danse", "bizarre", "drôle"],
+      "de": ["albern", "Tanz", "komisch", "witzig"]
+    },
+    "tags": ["funny", "dance", "goofy"]
+  },
+  {
+    "id": "funny-006",
+    "text": "(ง •̀_•́)ง",
+    "category": "funny",
+    "subcategory": "fight",
+    "names": {
+      "ko": "주먹 불끈 장난스런 결투",
+      "en": "Playful Fight Stance",
+      "ja": "やる気満々ファイティング",
+      "zh-Hans": "撸起袖子决斗",
+      "zh-Hant": "擼起袖子決鬥",
+      "es": "Posición cómica de boxeo",
+      "fr": "Prêt pour la bagarre ludique",
+      "de": "Kampfansage mit Augenzwinkern"
+    },
+    "keywords": {
+      "ko": ["결투", "주먹", "싸우자", "장난", "덤벼"],
+      "en": ["fight", "boxing", "fist", "playful", "brawl"],
+      "ja": ["ファイティング", "パンチ", "かかってこい", "対決"],
+      "zh-Hans": ["决斗", "拳头", "单挑", "搞笑"],
+      "zh-Hant": ["決鬥", "拳頭", "單挑", "搞笑"],
+      "es": ["pelea", "puño", "boxeo", "gracioso"],
+      "fr": ["combat", "poing", "boxe", "amusant"],
+      "de": ["Boxen", "Faust", "Kampf", "spaßig"]
+    },
+    "tags": ["funny", "fight", "playful"]
+  },
+  {
+    "id": "happy-001",
+    "text": "(≧▽≦)",
+    "category": "happy",
+    "subcategory": "joy",
+    "names": {
+      "ko": "활짝 웃는 행복",
+      "en": "Grinning Happiness",
+      "ja": "満面の笑みでハッピー",
+      "zh-Hans": "眉开眼笑",
+      "zh-Hant": "眉開眼笑",
+      "es": "Felicidad radiante",
+      "fr": "Joie épanouie",
+      "de": "Strahlende Fröhlichkeit"
+    },
+    "keywords": {
+      "ko": ["행복", "기쁨", "미소", "신남", "웃음"],
+      "en": ["happy", "joy", "grin", "cheerful", "delight"],
+      "ja": ["嬉しい", "幸せ", "笑顔", "歓喜"],
+      "zh-Hans": ["开心", "喜悦", "灿烂", "大笑"],
+      "zh-Hant": ["開心", "喜悅", "燦爛", "大笑"],
+      "es": ["feliz", "alegría", "sonrisa", "gozo"],
+      "fr": ["heureux", "joie", "sourire", "bonheur"],
+      "de": ["glücklich", "Freude", "Fröhlichkeit", "Lächeln"]
+    },
+    "tags": ["happy", "joy", "grin"]
+  },
+  {
+    "id": "happy-002",
+    "text": "(*＾▽＾*)",
+    "category": "happy",
+    "subcategory": "joy",
+    "names": {
+      "ko": "해맑은 순수한 미소",
+      "en": "Pure Joyful Smile",
+      "ja": "無邪気なほほえみ",
+      "zh-Hans": "天真烂漫微笑",
+      "zh-Hant": "天真爛漫微笑",
+      "es": "Sonrisa pura y alegre",
+      "fr": "Sourire pur et joyeux",
+      "de": "Reines fröhliches Lächeln"
+    },
+    "keywords": {
+      "ko": ["해맑은", "순수한", "기쁨", "미소", "즐거운"],
+      "en": ["joy", "pure", "innocent", "happy", "smile"],
+      "ja": ["純粋", "笑顔", "明るい", "ハッピー"],
+      "zh-Hans": ["纯真", "欢快", "微笑", "高兴"],
+      "zh-Hant": ["純真", "歡快", "微笑", "高興"],
+      "es": ["alegre", "inocente", "sonrisa", "feliz"],
+      "fr": ["joyeux", "pur", "innocent", "heureux"],
+      "de": ["fröhlich", "unschuldig", "heiter", "Lächeln"]
+    },
+    "tags": ["happy", "smile", "pure"]
+  },
+  {
+    "id": "happy-003",
+    "text": "(⌒‿⌒)",
+    "category": "happy",
+    "subcategory": "peaceful",
+    "names": {
+      "ko": "눈웃음 가득한 포근함",
+      "en": "Warm Smiling Joy",
+      "ja": "にこやかな温もり",
+      "zh-Hans": "温暖弯眼笑",
+      "zh-Hant": "溫暖彎眼笑",
+      "es": "Alegre y acogedor",
+      "fr": "Chaleureuse bonne humeur",
+      "de": "Herzensfrohe Zufriedenheit"
+    },
+    "keywords": {
+      "ko": ["눈웃음", "따뜻한", "행복", "흐뭇", "편안한"],
+      "en": ["warm", "smiling", "content", "peaceful", "happy"],
+      "ja": ["にこやか", "温かい", "満足", "平和"],
+      "zh-Hans": ["暖心", "和煦", "知足", "开心"],
+      "zh-Hant": ["暖心", "和煦", "知足", "開心"],
+      "es": ["cálido", "apacible", "feliz", "tranquilo"],
+      "fr": ["chaleureux", "serein", "heureux", "apaisé"],
+      "de": ["herzlich", "zufrieden", "friedlich", "froh"]
+    },
+    "tags": ["happy", "warm", "peaceful"]
+  },
+  {
+    "id": "happy-004",
+    "text": "(ﾉ^ヮ^)ﾉ",
+    "category": "happy",
+    "subcategory": "jumping",
+    "names": {
+      "ko": "신나서 깡충깡충",
+      "en": "Jumping with Joy",
+      "ja": "跳びはねて大喜び",
+      "zh-Hans": "欢欣雀跃",
+      "zh-Hant": "歡欣雀躍",
+      "es": "Saltando de emoción",
+      "fr": "Sauter de joie",
+      "de": "Luftsprünge vor Freude"
+    },
+    "keywords": {
+      "ko": ["점프", "신남", "깡충깡충", "기쁨", "환호"],
+      "en": ["jumping", "excited", "joy", "cheerful", "bounce"],
+      "ja": ["ジャンプ", "大喜び", "はしゃぐ", "テンション高"],
+      "zh-Hans": ["雀跃", "欢呼", "兴奋", "开心"],
+      "zh-Hant": ["雀躍", "歡呼", "興奮", "開心"],
+      "es": ["saltar", "emoción", "alegría", "eufórico"],
+      "fr": ["sauter", "enthousiaste", "joie", "euphorie"],
+      "de": ["springen", "aufgeregt", "Freude", "jubeln"]
+    },
+    "tags": ["happy", "jumping", "excited"]
+  },
+  {
+    "id": "happy-005",
+    "text": "＼(≧▽≦)／",
+    "category": "happy",
+    "subcategory": "cheer",
+    "names": {
+      "ko": "두 손 들고 환호",
+      "en": "Hands Up Joyful Cheer",
+      "ja": "両手を挙げて大歓声",
+      "zh-Hans": "举手高声喝彩",
+      "zh-Hant": "舉手高聲喝彩",
+      "es": "Celebración con brazos arriba",
+      "fr": "Hourra les bras en l'air",
+      "de": "Jubel mit erhobenen Händen"
+    },
+    "keywords": {
+      "ko": ["만세", "환호", "신남", "기쁨", "승리"],
+      "en": ["hooray", "hands up", "celebrate", "joy", "winner"],
+      "ja": ["万歳", "歓喜", "両手", "お祝い"],
+      "zh-Hans": ["万岁", "举手", "庆祝", "胜利"],
+      "zh-Hant": ["萬歲", "舉手", "慶祝", "勝利"],
+      "es": ["viva", "brazos arriba", "festejo", "victoria"],
+      "fr": ["hourra", "célébration", "joie", "victoire"],
+      "de": ["Hurra", "feiern", "Jubel", "Sieg"]
+    },
+    "tags": ["happy", "celebration", "hooray"]
+  },
+  {
+    "id": "happy-006",
+    "text": "(o^▽^o)",
+    "category": "happy",
+    "subcategory": "laugh",
+    "names": {
+      "ko": "눈부신 함박웃음",
+      "en": "Radiant Big Laugh",
+      "ja": "パッと明るい大笑い",
+      "zh-Hans": "灿烂大开颜",
+      "zh-Hant": "燦爛大開顏",
+      "es": "Carcajada radiante",
+      "fr": "Rire aux éclats radieux",
+      "de": "Herzhaftes helles Lachen"
+    },
+    "keywords": {
+      "ko": ["함박웃음", "호탕한", "기쁨", "웃음", "상쾌한"],
+      "en": ["laugh", "radiant", "chuckle", "delight", "glee"],
+      "ja": ["大笑い", "明るい", "ハッピー", "ウケる"],
+      "zh-Hans": ["大笑", "欢笑", "阳光", "痛快"],
+      "zh-Hant": ["大笑", "歡笑", "陽光", "痛快"],
+      "es": ["risa", "radiante", "carcajada", "gozo"],
+      "fr": ["rire", "éclats", "lumière", "gaieté"],
+      "de": ["lachen", "herzhaft", "freudig", "fröhlich"]
+    },
+    "tags": ["happy", "laugh", "bright"]
+  },
+  {
+    "id": "sad-001",
+    "text": "(╥﹏╥)",
+    "category": "sad",
+    "subcategory": "tears",
+    "names": {
+      "ko": "눈물이 주륵주륵",
+      "en": "Streaming Tears",
+      "ja": "大粒の涙が止まらない",
+      "zh-Hans": "泪如泉涌",
+      "zh-Hant": "淚如泉湧",
+      "es": "Ríos de lágrimas",
+      "fr": "Torrent de larmes",
+      "de": "Tränenbach"
+    },
+    "keywords": {
+      "ko": ["눈물", "슬픔", "울음", "서러움", "통곡"],
+      "en": ["tears", "crying", "sad", "weeping", "sorrow"],
+      "ja": ["涙", "泣く", "悲しい", "号泣"],
+      "zh-Hans": ["流泪", "悲伤", "痛哭", "流鼻涕"],
+      "zh-Hant": ["流淚", "悲傷", "痛哭", "流鼻涕"],
+      "es": ["lágrimas", "llorando", "triste", "pena"],
+      "fr": ["larmes", "pleurer", "triste", "chagrin"],
+      "de": ["Tränen", "weinen", "traurig", "Kummer"]
+    },
+    "tags": ["sad", "tears", "crying"]
+  },
+  {
+    "id": "sad-002",
+    "text": "(｡•́︿•̀｡)",
+    "category": "sad",
+    "subcategory": "pouty",
+    "names": {
+      "ko": "시무룩하고 서러운 얼굴",
+      "en": "Downcast and Pouty",
+      "ja": "しょんぼり唇をかむ",
+      "zh-Hans": "委屈瘪嘴",
+      "zh-Hant": "委屈癟嘴",
+      "es": "Triste y haciendo pucheros",
+      "fr": "Triste et boudeur",
+      "de": "Niedergeschlagen und schmollend"
+    },
+    "keywords": {
+      "ko": ["시무룩", "서러운", "슬픈", "우울", "삐침"],
+      "en": ["pouty", "downcast", "gloomy", "sad", "hurt"],
+      "ja": ["しょんぼり", "悲しい", "すねる", "落ち込む"],
+      "zh-Hans": ["委屈", "沮丧", "瘪嘴", "难过"],
+      "zh-Hant": ["委屈", "沮喪", "癟嘴", "難過"],
+      "es": ["desanimado", "puchero", "triste", "afligido"],
+      "fr": ["boudeur", "abattu", "triste", "déçu"],
+      "de": ["schmollen", "niedergeschlagen", "traurig", "geknickt"]
+    },
+    "tags": ["sad", "pouty", "downcast"]
+  },
+  {
+    "id": "sad-003",
+    "text": "(ಥ﹏ಥ)",
+    "category": "sad",
+    "subcategory": "sobbing",
+    "names": {
+      "ko": "흐느끼며 우는 슬픔",
+      "en": "Heavy Sobbing",
+      "ja": "声にならない号泣",
+      "zh-Hans": "悲恸痛哭",
+      "zh-Hant": "悲慟痛哭",
+      "es": "Llanto desconsolado",
+      "fr": "Gros sanglots de tristesse",
+      "de": "Schluchzend vor Schmerz"
+    },
+    "keywords": {
+      "ko": ["오열", "흐느낌", "슬픔", "통곡", "눈물"],
+      "en": ["sobbing", "weeping", "sad", "heartbroken", "grief"],
+      "ja": ["号泣", "泣き崩れる", "悲痛", "涙"],
+      "zh-Hans": ["痛哭", "号泣", "心碎", "悲痛"],
+      "zh-Hant": ["痛哭", "號泣", "心碎", "悲痛"],
+      "es": ["desconsolado", "sollozo", "tristeza", "dolor"],
+      "fr": ["sanglots", "chagrin", "cœur brisé", "larmes"],
+      "de": ["Schluchzen", "herzzereißend", "weinen", "Trauer"]
+    },
+    "tags": ["sad", "sobbing", "tears"]
+  },
+  {
+    "id": "sad-004",
+    "text": "(ノ_<。)",
+    "category": "sad",
+    "subcategory": "wiping-tears",
+    "names": {
+      "ko": "손으로 눈물 훔치기",
+      "en": "Wiping Away Tears",
+      "ja": "手でそっと涙を拭う",
+      "zh-Hans": "抹去眼泪",
+      "zh-Hant": "抹去眼淚",
+      "es": "Limpiándose las lágrimas",
+      "fr": "Essuyer discrètement ses larmes",
+      "de": "Tränen verstohlen wegwischen"
+    },
+    "keywords": {
+      "ko": ["눈물닦기", "슬픔", "글썽글썽", "애처로운", "울컥"],
+      "en": ["wipe tears", "sad", "tearful", "sniffle", "melancholy"],
+      "ja": ["涙を拭く", "ぐすん", "切ない", "涙ぐむ"],
+      "zh-Hans": ["擦泪", "难过", "酸楚", "吸鼻涕"],
+      "zh-Hant": ["擦淚", "難過", "酸楚", "吸鼻涕"],
+      "es": ["secar lágrimas", "triste", "conmovido", "pena"],
+      "fr": ["essuyer larmes", "émouvant", "triste", "mélancolie"],
+      "de": ["Tränen trocknen", "gerührt", "traurig", "wehmütig"]
+    },
+    "tags": ["sad", "wiping-tears", "quiet"]
+  },
+  {
+    "id": "sad-005",
+    "text": "(つ﹏⊂)",
+    "category": "sad",
+    "subcategory": "hiding-face",
+    "names": {
+      "ko": "두 손으로 얼굴 가리고 훌쩍",
+      "en": "Hiding Face Crying",
+      "ja": "顔を手で覆ってしくしく",
+      "zh-Hans": "掩面抽泣",
+      "zh-Hant": "掩面抽泣",
+      "es": "Tapándose la cara llorando",
+      "fr": "Cacher son visage en pleurant",
+      "de": "Gesicht in den Händen vergraben"
+    },
+    "keywords": {
+      "ko": ["얼굴가리기", "훌쩍", "슬픔", "부끄러운눈물", "흐느낌"],
+      "en": ["hide face", "sniffle", "crying", "sad", "ashamed"],
+      "ja": ["顔隠す", "しくしく", "悲しい", "涙"],
+      "zh-Hans": ["捂脸", "抽泣", "难为情", "伤心"],
+      "zh-Hant": ["捂臉", "抽泣", "難為情", "傷心"],
+      "es": ["ocultar rostro", "sollozar", "triste", "pena"],
+      "fr": ["cacher visage", "pleurs", "tristesse", "honte"],
+      "de": ["Gesicht verdecken", "schluchzen", "traurig", "beschämt"]
+    },
+    "tags": ["sad", "hiding-face", "sniffle"]
+  },
+  {
+    "id": "sad-006",
+    "text": "( Ĭ ^ Ĭ )",
+    "category": "sad",
+    "subcategory": "sniffle",
+    "names": {
+      "ko": "눈물 찔끔 흘리는 시무룩",
+      "en": "Teary Sniffle",
+      "ja": "ぐすんと涙ぐむ表情",
+      "zh-Hans": "忍泪抽噎",
+      "zh-Hant": "忍淚抽噎",
+      "es": "Lloriqueo contenido",
+      "fr": "Reniflement les larmes aux yeux",
+      "de": "Tränendes Schniefen"
+    },
+    "keywords": {
+      "ko": ["찔끔", "시무룩", "우울", "슬픈", "섭섭한"],
+      "en": ["sniffle", "tear drop", "sad", "gloomy", "upset"],
+      "ja": ["ぐすん", "涙目", "悲しい", "しょんぼり"],
+      "zh-Hans": ["掉泪", "抽噎", "憋屈", "委屈"],
+      "zh-Hant": ["掉淚", "抽噎", "憋屈", "委屈"],
+      "es": ["lloriqueo", "lagrimita", "triste", "tristeza"],
+      "fr": ["larme à l'œil", "triste", "chagrin", "déconfit"],
+      "de": ["schniefen", "weinerlich", "traurig", "betrübt"]
+    },
+    "tags": ["sad", "sniffle", "tears"]
+  },
+  {
+    "id": "angry-001",
+    "text": "(╬ಠ益ಠ)",
+    "category": "angry",
+    "subcategory": "rage",
+    "names": {
+      "ko": "이마에 핏대선 분노",
+      "en": "Vein Popping Rage",
+      "ja": "青筋立てて激怒",
+      "zh-Hans": "青筋暴怒",
+      "zh-Hant": "青筋暴怒",
+      "es": "Furia con venas marcadas",
+      "fr": "Fureur veine gonflée",
+      "de": "Wutentbrannt mit Zornader"
+    },
+    "keywords": {
+      "ko": ["분노", "격노", "화남", "핏대", "극대노"],
+      "en": ["rage", "angry", "furious", "wrath", "mad"],
+      "ja": ["激怒", "怒り", "青筋", "怒髪天"],
+      "zh-Hans": ["暴怒", "发火", "愤怒", "大发雷霆"],
+      "zh-Hant": ["暴怒", "發火", "憤怒", "大發雷霆"],
+      "es": ["furia", "ira", "enfado", "rabia"],
+      "fr": ["fureur", "colère", "rage", "énervé"],
+      "de": ["Wut", "Zorn", "wütend", "Rastlosigkeit"]
+    },
+    "tags": ["angry", "rage", "furious"]
+  },
+  {
+    "id": "angry-002",
+    "text": "(ノಠ益ಠ)ノ彡┻━┻",
+    "category": "angry",
+    "subcategory": "table-flip",
+    "names": {
+      "ko": "대격노 밥상 던지기",
+      "en": "Rage Table Throw",
+      "ja": "超激怒ちゃぶ台投げ",
+      "zh-Hans": "狂暴甩桌",
+      "zh-Hant": "狂暴甩桌",
+      "es": "Lanzamiento violento de mesa",
+      "fr": "Projection de table furieuse",
+      "de": "Wütender Tischweitwurf"
+    },
+    "keywords": {
+      "ko": ["대격노", "던지기", "밥상", "폭발", "화남"],
+      "en": ["rage flip", "table throw", "extreme anger", "furious", "mad"],
+      "ja": ["ちゃぶ台投げ", "大爆発", "怒り", "破壊"],
+      "zh-Hans": ["掀桌飞天", "暴走", "大怒", "狂躁"],
+      "zh-Hant": ["掀桌飛天", "暴走", "大怒", "狂躁"],
+      "es": ["destrozar mesa", "ira extrema", "enfurecido"],
+      "fr": ["jeter table", "furax", "rage absolue"],
+      "de": ["Tisch schleudern", "Wutausbruch", "zerstören"]
+    },
+    "tags": ["angry", "table-flip", "rage"]
+  },
+  {
+    "id": "angry-003",
+    "text": "ಠ_ಠ",
+    "category": "angry",
+    "subcategory": "disapproval",
+    "names": {
+      "ko": "정색하고 쏘아보기",
+      "en": "Look of Disapproval",
+      "ja": "真顔で見つめる (冷徹な視線)",
+      "zh-Hans": "不赞同审视 (严肃斜眼)",
+      "zh-Hant": "不贊同審視 (嚴肅斜眼)",
+      "es": "Mirada de desaprobación",
+      "fr": "Regard désapprobateur",
+      "de": "Blick der Missbilligung"
+    },
+    "keywords": {
+      "ko": ["정색", "째려보기", "불만", "어이없음", "지켜봄"],
+      "en": ["disapproval", "stare", "serious", "annoyed", "skeptical"],
+      "ja": ["睨む", "呆れる", "不満", "冷たい視線"],
+      "zh-Hans": ["鄙视", "严肃", "不爽", "冷眼"],
+      "zh-Hant": ["鄙視", "嚴肅", "不爽", "冷眼"],
+      "es": ["desaprobación", "mirada fija", "molesto", "escéptico"],
+      "fr": ["désapprobation", "regard froid", "sévère", "agacé"],
+      "de": ["Missbilligung", "starren", "streng", "genervt"]
+    },
+    "tags": ["angry", "disapproval", "serious"]
+  },
+  {
+    "id": "angry-004",
+    "text": "(¬_¬)",
+    "category": "angry",
+    "subcategory": "side-eye",
+    "names": {
+      "ko": "불만 가득 째려보기",
+      "en": "Side Eye Glare",
+      "ja": "じとーっと横目で睨む",
+      "zh-Hans": "白眼斜视",
+      "zh-Hant": "白眼斜視",
+      "es": "Mirada de reojo con fastidio",
+      "fr": "Regard en biais agacé",
+      "de": "Genervter Seitenblick"
+    },
+    "keywords": {
+      "ko": ["째려보기", "흘겨보기", "불만", "눈흘김", "의심"],
+      "en": ["side eye", "glare", "skeptical", "annoyed", "unimpressed"],
+      "ja": ["ジト目", "横目", "不機嫌", "怪しむ"],
+      "zh-Hans": ["翻白眼", "斜眼", "鄙夷", "不满"],
+      "zh-Hant": ["翻白眼", "斜眼", "鄙夷", "不滿"],
+      "es": ["mirar de lado", "desconfiado", "irritado"],
+      "fr": ["œil en coin", "soupçonneux", "agacement"],
+      "de": ["Seitenblick", "skeptisch", "misstrauisch"]
+    },
+    "tags": ["angry", "side-eye", "glare"]
+  },
+  {
+    "id": "angry-005",
+    "text": "(ง'̀-'́)ง",
+    "category": "angry",
+    "subcategory": "boxing",
+    "names": {
+      "ko": "한판 붙자 화난 주먹",
+      "en": "Ready to Rumble",
+      "ja": "受けて立つ！本気モード",
+      "zh-Hans": "握拳应战怒目",
+      "zh-Hant": "握拳應戰怒目",
+      "es": "Listo para la pelea con ira",
+      "fr": "Prêt à en découdre furieux",
+      "de": "Kampfbereit mit grimmiger Miene"
+    },
+    "keywords": {
+      "ko": ["주먹", "싸우자", "화남", "결투", "진지함"],
+      "en": ["boxing", "fist", "angry", "challenge", "rumble"],
+      "ja": ["やる気", "怒りパンチ", "勝負", "挑戦"],
+      "zh-Hans": ["挑战", "挥拳", "怒气", "迎战"],
+      "zh-Hant": ["挑戰", "揮拳", "怒氣", "迎戰"],
+      "es": ["desafío", "puños", "enfado", "combate"],
+      "fr": ["défi", "poings levés", "colère", "bataille"],
+      "de": ["Herausforderung", "Faust", "Wut", "kämpferisch"]
+    },
+    "tags": ["angry", "boxing", "fist"]
+  },
+  {
+    "id": "angry-006",
+    "text": "ヽ(`Д´)ﾉ",
+    "category": "angry",
+    "subcategory": "tantrum",
+    "names": {
+      "ko": "버럭 소리 지르는 화남",
+      "en": "Tantrum Screaming",
+      "ja": "キーッとわめき散らす",
+      "zh-Hans": "抓狂咆哮发飙",
+      "zh-Hant": "抓狂咆哮發飆",
+      "es": "Grito de rabieta descontrolada",
+      "fr": "Crise de colère hurlante",
+      "de": "Wütendes Schreien und Toben"
+    },
+    "keywords": {
+      "ko": ["버럭", "소리지름", "짜증", "발작", "화남"],
+      "en": ["tantrum", "scream", "shout", "mad", "frustrated"],
+      "ja": ["怒鳴る", "わめく", "キーッ", "癇癪"],
+      "zh-Hans": ["抓狂", "发飙", "吼叫", "气炸"],
+      "zh-Hant": ["抓狂", "發飆", "吼叫", "氣炸"],
+      "es": ["grito", "berrinche", "desesperado", "enfadado"],
+      "fr": ["hurlement", "crise", "enragé", "furieux"],
+      "de": ["schreien", "Wutanfall", "ausrasten", "toben"]
+    },
+    "tags": ["angry", "tantrum", "screaming"]
+  },
+  {
+    "id": "greeting-001",
+    "text": "(・∀・)ノ",
+    "category": "greeting",
+    "subcategory": "wave",
+    "names": {
+      "ko": "반갑게 손 흔들기",
+      "en": "Friendly Hand Wave",
+      "ja": "やあ！元気に手を振る",
+      "zh-Hans": "挥手打招呼",
+      "zh-Hant": "揮手打招呼",
+      "es": "Saludo amigable con la mano",
+      "fr": "Coucou amical de la main",
+      "de": "Freundliches Handwinken"
+    },
+    "keywords": {
+      "ko": ["안녕", "인사", "반가워", "손인사", "헬로"],
+      "en": ["hello", "wave", "hi", "greeting", "welcome"],
+      "ja": ["こんにちは", "やあ", "挨拶", "手を振る"],
+      "zh-Hans": ["你好", "招手", "问候", "嗨"],
+      "zh-Hant": ["你好", "招手", "問候", "嗨"],
+      "es": ["hola", "saludo", "ola", "bienvenido"],
+      "fr": ["salut", "bonjour", "coucou", "bienvenue"],
+      "de": ["hallo", "winken", "grüßen", "willkommen"]
+    },
+    "tags": ["greeting", "wave", "hello"]
+  },
+  {
+    "id": "greeting-002",
+    "text": "( ´ ▽ ` )ﾉ",
+    "category": "greeting",
+    "subcategory": "warm-wave",
+    "names": {
+      "ko": "따뜻하고 다정한 인사",
+      "en": "Sunny Warm Hello",
+      "ja": "爽やかにこんにちは",
+      "zh-Hans": "温暖阳光问候",
+      "zh-Hant": "溫暖陽光問候",
+      "es": "Saludo cálido y radiante",
+      "fr": "Salutation chaleureuse et souriante",
+      "de": "Herzlicher sonniger Gruß"
+    },
+    "keywords": {
+      "ko": ["따뜻한인사", "안녕", "다정한", "미소인사", "반가움"],
+      "en": ["warm", "hello", "hi", "pleasant", "wave"],
+      "ja": ["爽やか", "挨拶", "笑顔", "ようこそ"],
+      "zh-Hans": ["暖心问候", "你好", "微笑", "亲切"],
+      "zh-Hant": ["暖心問候", "你好", "微笑", "親切"],
+      "es": ["saludo cálido", "hola", "amable", "sonrisa"],
+      "fr": ["salut chaleureux", "bonjour", "amical", "sourire"],
+      "de": ["herzlich", "Begrüßung", "Hallo", "freundlich"]
+    },
+    "tags": ["greeting", "warm", "hello"]
+  },
+  {
+    "id": "greeting-003",
+    "text": "(*・ω・)ﾉ",
+    "category": "greeting",
+    "subcategory": "cute-wave",
+    "names": {
+      "ko": "살랑살랑 손인사",
+      "en": "Gentle Cute Wave",
+      "ja": "ちょこんと手を振る",
+      "zh-Hans": "萌萌挥小手",
+      "zh-Hant": "萌萌揮小手",
+      "es": "Saludo tierno y suave",
+      "fr": "Petit signe de la main tout mignon",
+      "de": "Süßes sanftes Winken"
+    },
+    "keywords": {
+      "ko": ["살랑살랑", "귀여운인사", "안녕", "바이바이", "손인사"],
+      "en": ["cute wave", "hello", "bye", "gentle", "friendly"],
+      "ja": ["ちょこん", "バイバイ", "こんにちは", "手振り"],
+      "zh-Hans": ["萌系问候", "拜拜", "打招呼", "挥手"],
+      "zh-Hant": ["萌系問候", "拜拜", "打招呼", "揮手"],
+      "es": ["saludo tierno", "hola", "adiós", "suave"],
+      "fr": ["petit signe", "salut mignon", "coucou"],
+      "de": ["sanftes winken", "hallo", "tschüss", "niedlich"]
+    },
+    "tags": ["greeting", "cute", "wave"]
+  },
+  {
+    "id": "greeting-004",
+    "text": "＼(＾▽＾)／",
+    "category": "greeting",
+    "subcategory": "welcome",
+    "names": {
+      "ko": "활짝 웃으며 환영",
+      "en": "Open Arm Welcome",
+      "ja": "両手を広げて大歓迎",
+      "zh-Hans": "张开双臂热烈欢迎",
+      "zh-Hant": "張開雙臂熱烈歡迎",
+      "es": "Bienvenida con brazos abiertos",
+      "fr": "Accueil enthousiaste à bras ouverts",
+      "de": "Herzliches Willkommen mit offenen Armen"
+    },
+    "keywords": {
+      "ko": ["환영", "반가워", "어서와", "웰컴", "기쁨인사"],
+      "en": ["welcome", "open arms", "greet", "joyful", "reunion"],
+      "ja": ["歓迎", "いらっしゃい", "ようこそ", "再会"],
+      "zh-Hans": ["欢迎", "拥抱", "热烈", "幸会"],
+      "zh-Hant": ["歡迎", "擁抱", "熱烈", "幸會"],
+      "es": ["bienvenida", "abrazar", "recibimiento", "alegría"],
+      "fr": ["bienvenue", "bras ouverts", "accueil", "joie"],
+      "de": ["willkommen", "Empfang", "offene Arme", "Freude"]
+    },
+    "tags": ["greeting", "welcome", "open-arms"]
+  },
+  {
+    "id": "greeting-005",
+    "text": "(o´ω`o)ﾉ",
+    "category": "greeting",
+    "subcategory": "casual",
+    "names": {
+      "ko": "편안하고 정겨운 안녕",
+      "en": "Casual Comfy Hi",
+      "ja": "まったりご挨拶",
+      "zh-Hans": "惬意随性打招呼",
+      "zh-Hant": "愜意隨性打招呼",
+      "es": "Hola relajado y cómodo",
+      "fr": "Salut décontracté et serein",
+      "de": "Gemütliches entspanntes Hallo"
+    },
+    "keywords": {
+      "ko": ["편안한", "안녕", "정겨운", "반가움", "하이"],
+      "en": ["casual", "hi", "comfy", "relaxed", "wave"],
+      "ja": ["まったり", "こんにちは", "のんびり", "挨拶"],
+      "zh-Hans": ["惬意", "随意", "你好", "打招呼"],
+      "zh-Hant": ["愜意", "隨意", "你好", "打招呼"],
+      "es": ["relajado", "hola", "cómodo", "casual"],
+      "fr": ["décontracté", "salut", "paisible", "tranquille"],
+      "de": ["entspannt", "hallo", "gemütlich", "zwanglos"]
+    },
+    "tags": ["greeting", "casual", "relaxed"]
+  },
+  {
+    "id": "greeting-006",
+    "text": "(￣▽￣)ノ",
+    "category": "greeting",
+    "subcategory": "laidback",
+    "names": {
+      "ko": "느긋하고 여유로운 인사",
+      "en": "Laid-Back Wave",
+      "ja": "気楽にどーも",
+      "zh-Hans": "洒脱悠闲嗨一声",
+      "zh-Hant": "灑脫悠閒嗨一聲",
+      "es": "Saludo informal y tranquilo",
+      "fr": "Coucou tranquille et relax",
+      "de": "Lässiger lockerer Gruß"
+    },
+    "keywords": {
+      "ko": ["느긋한", "여유", "인사", "하이", "편하게"],
+      "en": ["laidback", "chill", "wave", "informal", "hi"],
+      "ja": ["どーも", "気楽", "のんびり", "挨拶"],
+      "zh-Hans": ["悠闲", "嗨", "不拘小节", "随意"],
+      "zh-Hant": ["悠閒", "嗨", "不拘小節", "隨意"],
+      "es": ["informal", "hola", "tranqui", "despreocupado"],
+      "fr": ["tranquille", "salut", "relax", "cool"],
+      "de": ["lässig", "locker", "hallo", "entspannt"]
+    },
+    "tags": ["greeting", "laidback", "chill"]
+  },
+  {
+    "id": "thanks-001",
+    "text": "(人'v`*)",
+    "category": "thanks",
+    "subcategory": "gratitude",
+    "names": {
+      "ko": "두 손 모아 진심 감사",
+      "en": "Hands Together Thanks",
+      "ja": "手を合わせて大感謝",
+      "zh-Hans": "双手合十感激",
+      "zh-Hant": "雙手合十感激",
+      "es": "Manos juntas agradeciendo",
+      "fr": "Mains jointes en remerciement",
+      "de": "Dankbare gefaltete Hände"
+    },
+    "keywords": {
+      "ko": ["감사", "고마워", "두손모아", "땡큐", "은혜"],
+      "en": ["thanks", "thank you", "grateful", "appreciate", "praying"],
+      "ja": ["感謝", "ありがとう", "合掌", "お礼"],
+      "zh-Hans": ["感谢", "谢谢", "合十", "感恩"],
+      "zh-Hant": ["感謝", "謝謝", "合十", "感恩"],
+      "es": ["gracias", "agradecido", "manos juntas", "aprecio"],
+      "fr": ["merci", "reconnaissant", "gratitude", "mains jointes"],
+      "de": ["Danke", "dankbar", "Danksagung", "Hände falten"]
+    },
+    "tags": ["thanks", "gratitude", "hands-together"]
+  },
+  {
+    "id": "thanks-002",
+    "text": "m(_ _)m",
+    "category": "thanks",
+    "subcategory": "bow",
+    "names": {
+      "ko": "고개 숙여 정중한 절",
+      "en": "Deep Polite Bow",
+      "ja": "深々とお辞儀・平伏",
+      "zh-Hans": "躬身深深致敬",
+      "zh-Hant": "躬身深深致敬",
+      "es": "Reverencia profunda y formal",
+      "fr": "Salutation respectueuse et courbette",
+      "de": "Tiefe respektvolle Verbeugung"
+    },
+    "keywords": {
+      "ko": ["넙죽", "절", "정중한", "감사", "예의"],
+      "en": ["bow", "respect", "polite", "thanks", "apology"],
+      "ja": ["土下座", "お辞儀", "礼", "感謝"],
+      "zh-Hans": ["鞠躬", "致谢", "致敬", "恭敬"],
+      "zh-Hant": ["鞠躬", "致謝", "致敬", "恭敬"],
+      "es": ["reverencia", "respeto", "gracias", "formal"],
+      "fr": ["courbette", "révérence", "respect", "merci"],
+      "de": ["Verbeugung", "Respekt", "danke", "Demut"]
+    },
+    "tags": ["thanks", "bow", "polite"]
+  },
+  {
+    "id": "thanks-003",
+    "text": "(*ᴗ͈ˬᴗ͈)ꕤ*.ﾟ",
+    "category": "thanks",
+    "subcategory": "flower",
+    "names": {
+      "ko": "꽃을 든 공손한 감사",
+      "en": "Polite Flower Gratitude",
+      "ja": "お花を添えて丁寧な感謝",
+      "zh-Hans": "持花敬意致谢",
+      "zh-Hant": "持花敬意致謝",
+      "es": "Agradecimiento elegante con flor",
+      "fr": "Merci délicat avec fleur",
+      "de": "Höfliche Dankbarkeit mit Blume"
+    },
+    "keywords": {
+      "ko": ["꽃감사", "공손한", "감사합니다", "예쁜마음", "정성"],
+      "en": ["flower", "polite", "gratitude", "sweet", "respectful"],
+      "ja": ["お花", "丁寧", "ありがとう", "美しい心"],
+      "zh-Hans": ["鲜花致谢", "礼貌", "感激", "真心"],
+      "zh-Hant": ["鮮花致謝", "禮貌", "感激", "真心"],
+      "es": ["flor", "elegante", "gracias", "delicado"],
+      "fr": ["fleur", "délicat", "merci beaucoup", "respect"],
+      "de": ["Blume", "Dank", "höflich", "Wertschätzung"]
+    },
+    "tags": ["thanks", "flower", "polite"]
+  },
+  {
+    "id": "thanks-004",
+    "text": "(人-ω-)",
+    "category": "thanks",
+    "subcategory": "blessing",
+    "names": {
+      "ko": "감사한 마음의 기도",
+      "en": "Grateful Blessing",
+      "ja": "感謝を込めた祈り",
+      "zh-Hans": "感恩祈福",
+      "zh-Hant": "感恩祈福",
+      "es": "Oración de sincero agradecimiento",
+      "fr": "Bénédiction de gratitude",
+      "de": "Dankbares Segensgebet"
+    },
+    "keywords": {
+      "ko": ["기도", "감사", "은혜", "축복", "평온"],
+      "en": ["blessing", "grateful", "prayer", "peaceful", "thanks"],
+      "ja": ["祈り", "感謝", "恵み", "お礼"],
+      "zh-Hans": ["祈福", "感恩", "保佑", "致意"],
+      "zh-Hant": ["祈福", "感恩", "保佑", "致意"],
+      "es": ["bendición", "oración", "gracias", "fe"],
+      "fr": ["bénédiction", "prière", "remerciement", "paix"],
+      "de": ["Segen", "Gebet", "Dankbarkeit", "Frieden"]
+    },
+    "tags": ["thanks", "prayer", "blessing"]
+  },
+  {
+    "id": "thanks-005",
+    "text": "( ⁎ᵕᴗᵕ⁎ )",
+    "category": "thanks",
+    "subcategory": "smile",
+    "names": {
+      "ko": "온화하고 감사한 미소",
+      "en": "Gentle Thankful Smile",
+      "ja": "ほっと心温まるお礼",
+      "zh-Hans": "温和感念微笑",
+      "zh-Hant": "溫和感念微笑",
+      "es": "Sonrisa cálida de agradecimiento",
+      "fr": "Sourire doux et reconnaissant",
+      "de": "Mildes dankbares Lächeln"
+    },
+    "keywords": {
+      "ko": ["온화한", "감사", "미소", "흐뭇", "따뜻함"],
+      "en": ["gentle", "thankful", "smile", "warmth", "kind"],
+      "ja": ["心温まる", "お礼", "感謝", "優しい笑顔"],
+      "zh-Hans": ["暖意", "致谢", "温和", "相视一笑"],
+      "zh-Hant": ["暖意", "致謝", "溫和", "相視一笑"],
+      "es": ["amable", "sonrisa", "gracias", "tierno"],
+      "fr": ["doux", "sourire", "merci", "chaleur"],
+      "de": ["sanft", "dankbar", "Lächeln", "Güte"]
+    },
+    "tags": ["thanks", "gentle", "smile"]
+  },
+  {
+    "id": "thanks-006",
+    "text": "(♡ᴗ͈ˬᴗ͈)⁾⁾⁾",
+    "category": "thanks",
+    "subcategory": "bow",
+    "names": {
+      "ko": "애정 담아 깍듯이 감사",
+      "en": "Affectionate Courteous Bow",
+      "ja": "心を込めてペコリ",
+      "zh-Hans": "满怀爱意躬身拜谢",
+      "zh-Hant": "滿懷愛意躬身拜謝",
+      "es": "Reverencia afectuosa y atenta",
+      "fr": "Révérence affectueuse et polie",
+      "de": "Herzliche höfliche Verneigung"
+    },
+    "keywords": {
+      "ko": ["깍듯이", "애정", "감사합니다", "배꼽인사", "꾸벅"],
+      "en": ["courteous", "bow", "affection", "thank you", "polite"],
+      "ja": ["ペコリ", "感謝", "丁寧", "お辞儀"],
+      "zh-Hans": ["躬身", "致敬", "谢意", "爱心"],
+      "zh-Hant": ["躬身", "致敬", "謝意", "愛心"],
+      "es": ["atento", "reverencia", "afecto", "gracias"],
+      "fr": ["courbette", "politesse", "affection", "remerciements"],
+      "de": ["Verneigung", "Höflichkeit", "Herzlichkeit", "danke"]
+    },
+    "tags": ["thanks", "bow", "affection"]
+  },
+  {
+    "id": "cheering-001",
+    "text": "(๑˃̵ᴗ˂̵)و",
+    "category": "cheering",
+    "subcategory": "fist-pump",
+    "names": {
+      "ko": "주먹 쥐고 파이팅!",
+      "en": "Fist Pump Cheer",
+      "ja": "ガッツポーズ！気合十分",
+      "zh-Hans": "握拳加油！",
+      "zh-Hant": "握拳加油！",
+      "es": "¡Puño al aire con energía!",
+      "fr": "Poing levé pour encourager !",
+      "de": "Faustballen mit voller Power!"
+    },
+    "keywords": {
+      "ko": ["파이팅", "화이팅", "응원", "힘내", "주먹"],
+      "en": ["fighting", "fist pump", "cheer", "you can do it", "power"],
+      "ja": ["ガッツポーズ", "応援", "ファイト", "気合"],
+      "zh-Hans": ["加油", "握拳", "助威", "冲鸭"],
+      "zh-Hant": ["加油", "握拳", "助威", "衝鴨"],
+      "es": ["ánimo", "adelante", "fuerza", "puño"],
+      "fr": ["courage", "poing", "bravo", "force"],
+      "de": ["Durchhalten", "Faust", "Kraft", "Ansporn"]
+    },
+    "tags": ["cheering", "fist-pump", "fighting"]
+  },
+  {
+    "id": "cheering-002",
+    "text": "٩(๑❛ᴗ❛๑)۶",
+    "category": "cheering",
+    "subcategory": "hooray",
+    "names": {
+      "ko": "생기발랄 힘찬 응원",
+      "en": "Energetic Hooray Cheer",
+      "ja": "わーい！元気いっぱい応援",
+      "zh-Hans": "元气满满助威",
+      "zh-Hant": "元氣滿滿助威",
+      "es": "¡Hurra! Ánimo con energía",
+      "fr": "Encouragement plein d'énergie",
+      "de": "Voller Lebensfreude jubeln"
+    },
+    "keywords": {
+      "ko": ["생기발랄", "응원", "신남", "화이팅", "아자"],
+      "en": ["energetic", "cheer", "hooray", "support", "upbeat"],
+      "ja": ["元気", "応援", "わーい", "エール"],
+      "zh-Hans": ["元气", "欢呼", "给力", "打气"],
+      "zh-Hant": ["元氣", "歡呼", "給力", "打氣"],
+      "es": ["energía", "ánimo", "hurra", "vamos"],
+      "fr": ["énergie", "encouragement", "joie", "entrain"],
+      "de": ["Energie", "Jubel", "Komm schon", "lebhaft"]
+    },
+    "tags": ["cheering", "energetic", "hooray"]
+  },
+  {
+    "id": "cheering-003",
+    "text": "ᕦ(ò_óˇ)ᕤ",
+    "category": "cheering",
+    "subcategory": "flex",
+    "names": {
+      "ko": "알통 불끈 자신감 넘치는 응원",
+      "en": "Flexing Muscle Power",
+      "ja": "筋肉モリモリ気合い百倍",
+      "zh-Hans": "秀出肌肉充满力量",
+      "zh-Hant": "秀出肌肉充滿力量",
+      "es": "Mostrando músculo y fuerza",
+      "fr": "Gonfler les muscles plein de force",
+      "de": "Muskeln anspannen voller Stärke"
+    },
+    "keywords": {
+      "ko": ["알통", "근육", "자신감", "힘내자", "파워"],
+      "en": ["flex", "muscle", "power", "strong", "confidence"],
+      "ja": ["筋肉", "気合い", "パワー", "力強い"],
+      "zh-Hans": ["肌肉", "有力量", "坚强", "自信"],
+      "zh-Hant": ["肌肉", "有力量", "堅強", "自信"],
+      "es": ["músculo", "fuerza", "poder", "ánimo"],
+      "fr": ["muscle", "puissance", "force", "détermination"],
+      "de": ["Muskel", "Kraft", "Stärke", "Einsatz"]
+    },
+    "tags": ["cheering", "muscle", "flex"]
+  },
+  {
+    "id": "cheering-004",
+    "text": "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+    "category": "cheering",
+    "subcategory": "magic",
+    "names": {
+      "ko": "반짝이 꽃가루 응원",
+      "en": "Magical Confetti Cheer",
+      "ja": "魔法のキラキラ応援シャワー",
+      "zh-Hans": "撒出魔法闪亮彩条",
+      "zh-Hant": "撒出魔法閃亮彩條",
+      "es": "Lluvia mágica de confeti",
+      "fr": "Paillettes magiques de soutien",
+      "de": "Magischer Glitzerregen zur Motivation"
+    },
+    "keywords": {
+      "ko": ["꽃가루", "반짝이", "마법", "축하", "응원"],
+      "en": ["confetti", "sparkles", "magic", "cheer", "celebration"],
+      "ja": ["キラキラ", "紙吹雪", "魔法", "祝福"],
+      "zh-Hans": ["彩条", "闪烁", "魔法", "喝彩"],
+      "zh-Hant": ["彩條", "閃爍", "魔法", "喝彩"],
+      "es": ["confeti", "purpurina", "magia", "ánimo"],
+      "fr": ["paillettes", "confettis", "magie", "bravo"],
+      "de": ["Glitzer", "Konfetti", "Zauber", "Jubel"]
+    },
+    "tags": ["cheering", "sparkles", "magic"]
+  },
+  {
+    "id": "cheering-005",
+    "text": "٩(ˊᗜˋ*)و",
+    "category": "cheering",
+    "subcategory": "victory",
+    "names": {
+      "ko": "승리의 만세 환호",
+      "en": "Victory Shout",
+      "ja": "勝利の万歳ジャンプ",
+      "zh-Hans": "欢庆大捷万岁",
+      "zh-Hant": "歡慶大捷萬歲",
+      "es": "Grito de victoria y triunfo",
+      "fr": "Cri de victoire triomphant",
+      "de": "Triumphierender Siegesschrei"
+    },
+    "keywords": {
+      "ko": ["승리", "만세", "해냈다", "성공", "환호"],
+      "en": ["victory", "win", "success", "triumph", "hurrah"],
+      "ja": ["勝利", "成功", "勝った", "歓喜"],
+      "zh-Hans": ["获胜", "成功", "凯旋", "打赢"],
+      "zh-Hant": ["獲勝", "成功", "凱旋", "打贏"],
+      "es": ["victoria", "ganamos", "éxito", "triunfo"],
+      "fr": ["victoire", "succès", "gagné", "triomphe"],
+      "de": ["Sieg", "Erfolg", "geschafft", "Triumph"]
+    },
+    "tags": ["cheering", "victory", "success"]
+  },
+  {
+    "id": "cheering-006",
+    "text": "(๑و•̀ω•́)و",
+    "category": "cheering",
+    "subcategory": "determination",
+    "names": {
+      "ko": "포기하지 말고 끝까지 힘내!",
+      "en": "Never Give Up Cheer",
+      "ja": "最後まで諦めない！気合",
+      "zh-Hans": "坚持到底永不言弃",
+      "zh-Hant": "堅持到底永不言棄",
+      "es": "¡No te rindas nunca!",
+      "fr": "Ne baisse jamais les bras !",
+      "de": "Gib niemals auf! Weiter so!"
+    },
+    "keywords": {
+      "ko": ["포기마", "끝까지", "열정", "도전", "끈기"],
+      "en": ["never give up", "determination", "keep going", "grit", "persist"],
+      "ja": ["諦めない", "根性", "最後まで", "ファイト"],
+      "zh-Hans": ["不放弃", "坚持", "毅力", "加油干"],
+      "zh-Hant": ["不放棄", "堅持", "毅力", "加油幹"],
+      "es": ["persevera", "adelante", "fuerza", "constancia"],
+      "fr": ["persévérance", "courage", "continuer", "volonté"],
+      "de": ["Durchhaltevermögen", "weitermachen", "Mut", "Wille"]
+    },
+    "tags": ["cheering", "determination", "persist"]
+  },
+  {
+    "id": "surprise-001",
+    "text": "(⊙_⊙)",
+    "category": "surprise",
+    "subcategory": "shock",
+    "names": {
+      "ko": "동공 지진 깜짝 놀람",
+      "en": "Wide-Eyed Shock",
+      "ja": "目を丸くしてビックリ",
+      "zh-Hans": "瞠目结舌大震惊",
+      "zh-Hant": "瞠目結舌大震驚",
+      "es": "Ojos abiertos de asombro",
+      "fr": "Yeux écarquillés de surprise",
+      "de": "Kulleraugen vor Schreck"
+    },
+    "keywords": {
+      "ko": ["놀람", "동공지진", "깜짝", "충격", "당황"],
+      "en": ["shock", "wide eyes", "surprised", "stunned", "gasp"],
+      "ja": ["びっくり", "驚き", "丸目", "衝撃"],
+      "zh-Hans": ["震惊", "瞪大眼睛", "惊愕", "目瞪口呆"],
+      "zh-Hant": ["震驚", "瞪大眼睛", "驚愕", "目瞪口呆"],
+      "es": ["asombro", "impacto", "sorpresa", "ojos abiertos"],
+      "fr": ["choc", "yeux ronds", "surprise", "stupéfaction"],
+      "de": ["Schock", "Erstaunen", "Überraschung", "gucken"]
+    },
+    "tags": ["surprise", "shock", "wide-eyes"]
+  },
+  {
+    "id": "surprise-002",
+    "text": "(°o°:)",
+    "category": "surprise",
+    "subcategory": "jaw-drop",
+    "names": {
+      "ko": "입을 떡 벌린 놀람",
+      "en": "Jaw Dropped Surprise",
+      "ja": "口をあんぐり驚愕",
+      "zh-Hans": "张口结舌愕然",
+      "zh-Hant": "張口結舌愕然",
+      "es": "Boca abierta de estupefacción",
+      "fr": "Bouche bée de stupéfaction",
+      "de": "Mund offen vor Staunen"
+    },
+    "keywords": {
+      "ko": ["입떡벌림", "깜놀", "놀란표정", "당혹", "어안이벙벙"],
+      "en": ["jaw drop", "surprised", "speechless", "amazed", "open mouth"],
+      "ja": ["口あんぐり", "唖然", "ポカン", "驚き"],
+      "zh-Hans": ["张嘴", "说不出话", "惊诧", "发呆"],
+      "zh-Hant": ["張嘴", "說不出話", "驚詫", "發呆"],
+      "es": ["boca abierta", "pasmado", "estupefacto", "sin palabras"],
+      "fr": ["bouche bée", "sans voix", "médusé", "ébahi"],
+      "de": ["Mund offen", "sprachlos", "staunen", "verdutzt"]
+    },
+    "tags": ["surprise", "jaw-drop", "speechless"]
+  },
+  {
+    "id": "surprise-003",
+    "text": "( ﾟдﾟ)",
+    "category": "surprise",
+    "subcategory": "stunned",
+    "names": {
+      "ko": "넋이 나간 충격",
+      "en": "Stunned Disbelief",
+      "ja": "絶句・呆然自失",
+      "zh-Hans": "难以置信目瞪口呆",
+      "zh-Hant": "難以置信目瞪口呆",
+      "es": "Incredulidad total pasmado",
+      "fr": "Sidéré d'incrédulité",
+      "de": "Fassungslose Verblüffung"
+    },
+    "keywords": {
+      "ko": ["넋나감", "충격", "멘붕", "당혹", "믿을수없는"],
+      "en": ["stunned", "disbelief", "shocked", "dumbfounded", "unbelievable"],
+      "ja": ["呆然", "ポカーン", "絶句", "信じられない"],
+      "zh-Hans": ["呆滞", "不敢相信", "蒙圈", "震惊"],
+      "zh-Hant": ["呆滯", "不敢相信", "蒙圈", "震驚"],
+      "es": ["atónito", "incrédulo", "impactado", "boquiabierto"],
+      "fr": ["sidéré", "incrédule", "pantois", "choqué"],
+      "de": ["verblüfft", "fassungslos", "ungläubig", "baff"]
+    },
+    "tags": ["surprise", "stunned", "disbelief"]
+  },
+  {
+    "id": "surprise-004",
+    "text": "w(°ｏ°)w",
+    "category": "surprise",
+    "subcategory": "mind-blown",
+    "names": {
+      "ko": "머리 감싸쥐고 경악",
+      "en": "Mind Blown Surprise",
+      "ja": "頭を抱えて大パニック",
+      "zh-Hans": "抱头惊呼不可思议",
+      "zh-Hant": "抱頭驚呼不可思議",
+      "es": "Agarrándose la cabeza asombrado",
+      "fr": "Se tenant la tête stupéfait",
+      "de": "Hände an den Kopf vor Schreck"
+    },
+    "keywords": {
+      "ko": ["경악", "멘붕", "머리감싸쥠", "대박", "충격"],
+      "en": ["mind blown", "hands on head", "panic", "wild surprise", "whoa"],
+      "ja": ["パニック", "うわー", "大騒ぎ", "仰天"],
+      "zh-Hans": ["抱头", "惊呼", "天哪", "不可思议"],
+      "zh-Hant": ["抱頭", "驚呼", "天哪", "不可思議"],
+      "es": ["cabeza", "asombro", "dios mío", "pánico"],
+      "fr": ["les bras m'en tombent", "oh mon dieu", "sidération"],
+      "de": ["Kopf fassen", "unglaublich", "Oh Gott", "Panik"]
+    },
+    "tags": ["surprise", "mind-blown", "panic"]
+  },
+  {
+    "id": "surprise-005",
+    "text": "( ; ﾛ)",
+    "category": "surprise",
+    "subcategory": "gasp",
+    "names": {
+      "ko": "헉! 하고 숨 멎은 표정",
+      "en": "Gasping Shock",
+      "ja": "ヒェッ！息をのむ瞬間",
+      "zh-Hans": "倒吸一口凉气",
+      "zh-Hant": "倒吸一口涼氣",
+      "es": "Ahogo de susto repentino",
+      "fr": "Souffle coupé par la frayeur",
+      "de": "Nach Luft schnappen vor Schreck"
+    },
+    "keywords": {
+      "ko": ["헉", "숨멎", "깜놀", "기겁", "놀람"],
+      "en": ["gasp", "frightened", "sudden shock", "startled", "eek"],
+      "ja": ["ヒェッ", "息をのむ", "驚愕", "汗"],
+      "zh-Hans": ["吸凉气", "吓一跳", "惊慌", "出冷汗"],
+      "zh-Hant": ["吸涼氣", "嚇一跳", "驚慌", "出冷汗"],
+      "es": ["susto", "asustado", "jadeo", "repentino"],
+      "fr": ["sursaut", "peur", "effroi", "souffle coupé"],
+      "de": ["erschrocken", "zucken", "Atem stocken", "Hilfe"]
+    },
+    "tags": ["surprise", "gasp", "startled"]
+  },
+  {
+    "id": "surprise-006",
+    "text": "(ﾟДﾟ?!)",
+    "category": "surprise",
+    "subcategory": "bewildered",
+    "names": {
+      "ko": "뭐라고?! 의아하고 황당한 놀람",
+      "en": "Bewildered Surprise",
+      "ja": "なんですと？！困惑の叫び",
+      "zh-Hans": "什么鬼？！困惑震惊",
+      "zh-Hant": "什麼鬼？！困惑震驚",
+      "es": "¿¡Qué diablos!? Asombro confundido",
+      "fr": "Quoi ?! Stupeur et incompréhension",
+      "de": "Was bitte?! Völlig verdattert"
+    },
+    "keywords": {
+      "ko": ["뭐라고", "황당", "어리둥절", "의아함", "물음표"],
+      "en": ["what", "bewildered", "confused", "questioning", "disbelief"],
+      "ja": ["えっ", "なんですと", "疑問", "混乱"],
+      "zh-Hans": ["什么", "困惑", "怎么可能", "问号脸"],
+      "zh-Hant": ["什麼", "困惑", "怎麼可能", "問號臉"],
+      "es": ["qué", "confuso", "desconcertado", "sorpresa"],
+      "fr": ["comment ça", "perplexe", "incompréhension", "quoi"],
+      "de": ["was", "verwirrt", "fragend", "huch"]
+    },
+    "tags": ["surprise", "bewildered", "confused"]
+  }
+]

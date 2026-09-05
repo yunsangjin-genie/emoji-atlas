@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-emoji {
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Android Emoji", sans-serif;
+  }
+}
+
+/* Custom subtle scrollbar */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(150, 150, 150, 0.3);
+  border-radius: 9999px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(150, 150, 150, 0.5);
+}

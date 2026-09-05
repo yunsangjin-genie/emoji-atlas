@@ -1,0 +1,8 @@
+{
+  "name": "Emoji Atlas",
+  "description": "글로벌 이모지 검색·복사 웹서비스. 이모지, 특수문자, 텍스트 이모티콘을 빠르고 쉽게 찾고 복사하세요.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

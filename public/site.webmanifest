@@ -1,0 +1,17 @@
+{
+  "name": "Emoji Atlas",
+  "short_name": "Emoji Atlas",
+  "description": "글로벌 이모지 검색·복사 웹서비스. 이모지, 특수문자, 텍스트 이모티콘을 빠르고 쉽게 찾고 복사하세요.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FFD93D",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
