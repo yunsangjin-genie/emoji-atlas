@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Language, RouteState } from '../types';
 import { SUPPORTED_LANGUAGES, translations } from '../locales/translations';
-import { Sun, Moon, Globe, Menu, X, ChevronDown } from 'lucide-react';
+import { Sun, Moon, Globe, Menu, X, ChevronDown, Star } from 'lucide-react';
 
 interface HeaderProps {
   currentLang: Language;
@@ -10,6 +10,7 @@ interface HeaderProps {
   onThemeToggle: () => void;
   route: RouteState;
   onNavigate: (route: Partial<RouteState>) => void;
+  favoritesCount?: number;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -19,6 +20,7 @@ export const Header: React.FC<HeaderProps> = ({
   onThemeToggle,
   route,
   onNavigate,
+  favoritesCount = 0,
 }) => {
   const [langMenuOpen, setLangMenuOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -40,7 +42,11 @@ export const Header: React.FC<HeaderProps> = ({
   const currentLangObj = SUPPORTED_LANGUAGES.find((l) => l.code === currentLang) || SUPPORTED_LANGUAGES[0];
 
   const handleNav = (view: RouteState['view']) => {
-    onNavigate({ view, emojiId: undefined, categoryId: undefined, searchQuery: undefined });
+    if (view === 'popular') {
+      onNavigate({ view: 'popular', categoryId: 'popular', emojiId: undefined, searchQuery: undefined });
+    } else {
+      onNavigate({ view, emojiId: undefined, categoryId: undefined, searchQuery: undefined });
+    }
     setMobileMenuOpen(false);
   };
 
@@ -76,7 +82,7 @@ export const Header: React.FC<HeaderProps> = ({
             id="nav-link-emoji"
             onClick={() => handleNav('emoji')}
             className={`px-3.5 py-2 text-sm font-medium rounded-lg transition-colors cursor-pointer ${
-              route.view === 'emoji'
+              route.view === 'emoji' && route.categoryId !== 'popular'
                 ? 'bg-neutral-100 text-neutral-950 dark:bg-neutral-800 dark:text-white'
                 : 'text-neutral-600 hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-white hover:bg-neutral-50 dark:hover:bg-neutral-800/60'
             }`}
@@ -109,17 +115,72 @@ export const Header: React.FC<HeaderProps> = ({
             id="nav-link-popular"
             onClick={() => handleNav('popular')}
             className={`px-3.5 py-2 text-sm font-medium rounded-lg transition-colors cursor-pointer ${
-              route.view === 'popular'
+              route.view === 'popular' || (route.view === 'emoji' && route.categoryId === 'popular')
                 ? 'bg-neutral-100 text-neutral-950 dark:bg-neutral-800 dark:text-white'
                 : 'text-neutral-600 hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-white hover:bg-neutral-50 dark:hover:bg-neutral-800/60'
             }`}
           >
             {t.navPopular}
           </button>
+          <button
+            id="nav-link-favorites"
+            onClick={() => handleNav('favorites')}
+            className={`inline-flex items-center gap-1.5 px-3.5 py-2 text-sm font-medium rounded-lg transition-colors cursor-pointer ${
+              route.view === 'favorites'
+                ? 'bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300'
+                : 'text-neutral-600 hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-white hover:bg-neutral-50 dark:hover:bg-neutral-800/60'
+            }`}
+          >
+            <Star
+              className={`w-4 h-4 ${
+                favoritesCount > 0
+                  ? 'fill-amber-400 text-amber-500 dark:text-amber-400'
+                  : 'text-neutral-400 dark:text-neutral-500'
+              }`}
+            />
+            <span>{t.navFavorites}</span>
+            {favoritesCount > 0 && (
+              <span
+                id="header-nav-favorites-count"
+                className="px-1.5 py-0.2 rounded-full text-[11px] font-bold font-mono bg-amber-100 dark:bg-amber-900/60 text-amber-800 dark:text-amber-300"
+              >
+                {favoritesCount}
+              </span>
+            )}
+          </button>
         </nav>
 
-        {/* Right Actions: Language + Theme + Mobile Hamburger */}
-        <div className="flex items-center gap-2">
+        {/* Right Actions: Quick Favorites + Language + Theme + Mobile Hamburger */}
+        <div className="flex items-center gap-1.5 sm:gap-2">
+          {/* Quick Favorites Access Button */}
+          <button
+            id="header-quick-favorites-btn"
+            onClick={() => handleNav('favorites')}
+            className={`relative p-2 rounded-lg transition-colors cursor-pointer ${
+              route.view === 'favorites'
+                ? 'bg-amber-50 dark:bg-amber-950/40 text-amber-600 dark:text-amber-400'
+                : 'text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800'
+            }`}
+            title={t.navFavorites}
+            aria-label={t.navFavorites}
+          >
+            <Star
+              className={`w-5 h-5 ${
+                favoritesCount > 0
+                  ? 'fill-amber-400 text-amber-500 dark:text-amber-400'
+                  : 'text-neutral-500 dark:text-neutral-400'
+              }`}
+            />
+            {favoritesCount > 0 && (
+              <span
+                id="header-quick-favorites-count"
+                className="absolute -top-1 -right-1 min-w-4 h-4 px-1 rounded-full bg-amber-500 text-white text-[10px] font-bold font-mono flex items-center justify-center shadow-xs"
+              >
+                {favoritesCount > 99 ? '99+' : favoritesCount}
+              </span>
+            )}
+          </button>
+
           {/* Language Dropdown */}
           <div className="relative" ref={langMenuRef}>
             <button
@@ -208,7 +269,7 @@ export const Header: React.FC<HeaderProps> = ({
             id="mobile-nav-link-emoji"
             onClick={() => handleNav('emoji')}
             className={`w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium ${
-              route.view === 'emoji'
+              route.view === 'emoji' && route.categoryId !== 'popular'
                 ? 'bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-white'
                 : 'text-neutral-600 dark:text-neutral-300'
             }`}
@@ -241,12 +302,37 @@ export const Header: React.FC<HeaderProps> = ({
             id="mobile-nav-link-popular"
             onClick={() => handleNav('popular')}
             className={`w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium ${
-              route.view === 'popular'
+              route.view === 'popular' || (route.view === 'emoji' && route.categoryId === 'popular')
                 ? 'bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-white'
                 : 'text-neutral-600 dark:text-neutral-300'
             }`}
           >
             {t.navPopular}
+          </button>
+          <button
+            id="mobile-nav-link-favorites"
+            onClick={() => handleNav('favorites')}
+            className={`w-full flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium ${
+              route.view === 'favorites'
+                ? 'bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300'
+                : 'text-neutral-600 dark:text-neutral-300'
+            }`}
+          >
+            <span className="flex items-center gap-2">
+              <Star
+                className={`w-4 h-4 ${
+                  favoritesCount > 0
+                    ? 'fill-amber-400 text-amber-500 dark:text-amber-400'
+                    : 'text-neutral-400'
+                }`}
+              />
+              <span>{t.navFavorites}</span>
+            </span>
+            {favoritesCount > 0 && (
+              <span className="px-2 py-0.5 rounded-full text-xs font-bold font-mono bg-amber-100 dark:bg-amber-900/60 text-amber-800 dark:text-amber-300">
+                {favoritesCount}
+              </span>
+            )}
           </button>
         </div>
       )}

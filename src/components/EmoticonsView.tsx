@@ -347,7 +347,7 @@ export const EmoticonsView: React.FC<EmoticonsViewProps> = ({ currentLang, initi
       )}
 
       {/* Non-intrusive AdSlot */}
-      <AdSlot id="emoticons-ad" className="mt-12" />
+      <AdSlot id="emoticons-ad" className="mt-8 sm:mt-10" />
 
       {/* Global Toast Notification */}
       <Toast message={toastState?.message ?? null} type={toastState?.type} />

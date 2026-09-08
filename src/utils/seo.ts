@@ -58,9 +58,20 @@ export function updateMetaTags(route: RouteState, title: string, description: st
   else if (route.view === 'contact') currentPath = `/${route.lang}/contact/`;
   else if (route.view === 'privacy') currentPath = `/${route.lang}/privacy/`;
   else if (route.view === 'terms') currentPath = `/${route.lang}/terms/`;
+  else if (route.view === 'favorites') currentPath = `/${route.lang}/favorites/`;
 
   const canonicalUrl = `${BASE_DOMAIN}${currentPath}`;
   setMeta('property', 'og:url', canonicalUrl);
+
+  // Robots meta handling: noindex, nofollow for personal favorites page
+  if (route.view === 'favorites') {
+    setMeta('name', 'robots', 'noindex, nofollow');
+  } else {
+    const robotsEl = document.querySelector('meta[name="robots"]');
+    if (robotsEl) {
+      robotsEl.remove();
+    }
+  }
 
   // Update or create Canonical link
   let canonicalEl = document.querySelector('link[rel="canonical"]');
@@ -85,6 +96,7 @@ export function updateMetaTags(route: RouteState, title: string, description: st
     else if (route.view === 'contact') langPath = `/${code}/contact/`;
     else if (route.view === 'privacy') langPath = `/${code}/privacy/`;
     else if (route.view === 'terms') langPath = `/${code}/terms/`;
+    else if (route.view === 'favorites') langPath = `/${code}/favorites/`;
 
     const alt = document.createElement('link');
     alt.setAttribute('rel', 'alternate');
@@ -103,7 +115,7 @@ export function updateMetaTags(route: RouteState, title: string, description: st
   else if (route.view === 'emoticons') enPath = `/en/emoticons/`;
   else if (route.view === 'symbols') enPath = `/en/symbols/`;
   else if (route.view === 'popular') enPath = `/en/popular/`;
-  else if (['about', 'contact', 'privacy', 'terms'].includes(route.view)) enPath = `/en/${route.view}/`;
+  else if (['about', 'contact', 'privacy', 'terms', 'favorites'].includes(route.view)) enPath = `/en/${route.view}/`;
   defaultAlt.setAttribute('href', `${BASE_DOMAIN}${enPath}`);
   document.head.appendChild(defaultAlt);
 

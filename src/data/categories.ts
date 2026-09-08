@@ -5,7 +5,7 @@ export const EMOJI_CATEGORIES: EmojiCategory[] = [
     id: 'smileys-emotion',
     icon: '😀',
     names: {
-      ko: '얼굴·감정',
+      ko: '웃는 얼굴과 감정',
       en: 'Smileys & Emotion',
       ja: 'スマイリーと感情',
       'zh-hans': '表情与情感',
@@ -29,7 +29,7 @@ export const EMOJI_CATEGORIES: EmojiCategory[] = [
     id: 'people-body',
     icon: '👋',
     names: {
-      ko: '사람·신체',
+      ko: '사람과 신체',
       en: 'People & Body',
       ja: '人と身体',
       'zh-hans': '人物与身体',
@@ -53,7 +53,7 @@ export const EMOJI_CATEGORIES: EmojiCategory[] = [
     id: 'animals-nature',
     icon: '🐶',
     names: {
-      ko: '동물·자연',
+      ko: '동물과 자연',
       en: 'Animals & Nature',
       ja: '動物と自然',
       'zh-hans': '动物与自然',
@@ -77,7 +77,7 @@ export const EMOJI_CATEGORIES: EmojiCategory[] = [
     id: 'food-drink',
     icon: '🍎',
     names: {
-      ko: '음식·음료',
+      ko: '음식과 음료',
       en: 'Food & Drink',
       ja: 'フードとドリンク',
       'zh-hans': '美食与饮品',
@@ -101,7 +101,7 @@ export const EMOJI_CATEGORIES: EmojiCategory[] = [
     id: 'travel-places',
     icon: '🚗',
     names: {
-      ko: '여행·장소',
+      ko: '여행과 장소',
       en: 'Travel & Places',
       ja: '旅行と場所',
       'zh-hans': '旅行与地点',

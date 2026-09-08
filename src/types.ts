@@ -79,6 +79,7 @@ export type ViewType =
   | 'symbols'
   | 'emoticons'
   | 'popular'
+  | 'favorites'
   | 'about'
   | 'contact'
   | 'privacy'

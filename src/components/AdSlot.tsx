@@ -1,34 +1,64 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 interface AdSlotProps {
   id?: string;
   className?: string;
   slotId?: string;
+  client?: string;
 }
 
-export const AdSlot: React.FC<AdSlotProps> = ({ id = 'ad-slot', className = '', slotId = '1234567890' }) => {
+declare global {
+  interface Window {
+    adsbygoogle?: unknown[];
+  }
+}
+
+export const AdSlot: React.FC<AdSlotProps> = ({
+  id = 'ad-slot',
+  className = '',
+  slotId = '2958911185',
+  client = 'ca-pub-8213264452996217',
+}) => {
+  const adRef = useRef<HTMLModElement>(null);
+  const isPushedRef = useRef(false);
+
+  useEffect(() => {
+    // Guard against multiple pushes to the same ad slot
+    if (isPushedRef.current) return;
+
+    try {
+      if (typeof window !== 'undefined' && adRef.current) {
+        // Verify element has not already been processed or filled by Google AdSense
+        const status = adRef.current.getAttribute('data-adsbygoogle-status');
+        const hasIframe = adRef.current.querySelector('iframe');
+        if (!status && !hasIframe) {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+          isPushedRef.current = true;
+        }
+      }
+    } catch (err) {
+      // Prevent uncaught AdSense errors (e.g. adblocker, network failure) from affecting React UI
+      console.debug('AdSense notice:', err);
+    }
+  }, []);
+
   return (
     <div
       id={id}
-      className={`w-full max-w-4xl mx-auto my-8 p-4 rounded-xl border border-dashed border-neutral-300 dark:border-neutral-700 bg-neutral-50/70 dark:bg-neutral-900/40 text-center ${className}`}
-      aria-label="Advertisement"
+      className={`w-full max-w-4xl mx-auto overflow-hidden text-center ${className}`}
+      aria-label="Sponsored"
     >
-      <div className="text-[11px] font-semibold tracking-wider text-neutral-600 dark:text-neutral-400 uppercase mb-2 select-none">
-        ADVERTISEMENT
-      </div>
-      {/* Standard Google AdSense Responsive Container */}
-      <div className="min-h-[90px] flex flex-col items-center justify-center text-xs text-neutral-600 dark:text-neutral-400">
+      {/* Emoji_modoo Google AdSense Responsive Container without excessive min-height */}
+      <div className="w-full overflow-hidden flex justify-center items-center">
         <ins
+          ref={adRef}
           className="adsbygoogle"
-          style={{ display: 'block', width: '100%', minHeight: '90px' }}
-          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+          style={{ display: 'block', width: '100%' }}
+          data-ad-client={client}
           data-ad-slot={slotId}
           data-ad-format="auto"
           data-full-width-responsive="true"
         />
-        <span className="text-[11px] text-neutral-600 dark:text-neutral-400 mt-1">
-          Google AdSense Area (ca-pub-XXXXXXXXXXXXXXXX)
-        </span>
       </div>
     </div>
   );

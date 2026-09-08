@@ -3,6 +3,7 @@ import { Language } from '../types';
 const RECENT_KEY = 'modooEmojiRecent';
 const THEME_KEY = 'modooEmojiTheme';
 const LANG_KEY = 'modooEmojiLang';
+const FAVORITES_KEY = 'emojiAtlasFavorites';
 
 export function getRecentEmojis(): string[] {
   try {
@@ -83,4 +84,85 @@ export function setStoredLanguage(lang: Language): void {
   } catch (err) {
     console.error('Failed to save language', err);
   }
+}
+
+export function getFavoriteEmojiIds(): string[] {
+  try {
+    const raw = localStorage.getItem(FAVORITES_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    const seen = new Set<string>();
+    const sanitized: string[] = [];
+    for (const item of parsed) {
+      if (typeof item === 'string' && item.trim()) {
+        const trimmed = item.trim();
+        if (!seen.has(trimmed)) {
+          seen.add(trimmed);
+          sanitized.push(trimmed);
+        }
+      }
+    }
+    return sanitized;
+  } catch {
+    return [];
+  }
+}
+
+export function saveFavoriteEmojiIds(ids: string[]): void {
+  try {
+    const seen = new Set<string>();
+    const sanitized: string[] = [];
+    for (const item of ids) {
+      if (typeof item === 'string' && item.trim()) {
+        const trimmed = item.trim();
+        if (!seen.has(trimmed)) {
+          seen.add(trimmed);
+          sanitized.push(trimmed);
+        }
+      }
+    }
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify(sanitized));
+  } catch (err) {
+    console.error('Failed to save favorites to localStorage', err);
+  }
+}
+
+export function toggleFavoriteEmoji(emojiId: string): { favorites: string[]; isFavorite: boolean } {
+  if (!emojiId || typeof emojiId !== 'string') {
+    const current = getFavoriteEmojiIds();
+    return { favorites: current, isFavorite: false };
+  }
+  const id = emojiId.trim();
+  const current = getFavoriteEmojiIds();
+  const index = current.indexOf(id);
+  let updated: string[];
+  let isFavorite: boolean;
+
+  if (index !== -1) {
+    // Remove if already favorited
+    updated = current.filter((item) => item !== id);
+    isFavorite = false;
+  } else {
+    // Prepend newly favorited emoji (newest at the front)
+    updated = [id, ...current.filter((item) => item !== id)];
+    isFavorite = true;
+  }
+
+  saveFavoriteEmojiIds(updated);
+  return { favorites: updated, isFavorite };
+}
+
+export function isEmojiFavorite(emojiId: string): boolean {
+  if (!emojiId) return false;
+  const current = getFavoriteEmojiIds();
+  return current.includes(emojiId.trim());
+}
+
+export function removeFavoriteEmoji(emojiId: string): string[] {
+  if (!emojiId) return getFavoriteEmojiIds();
+  const current = getFavoriteEmojiIds();
+  const updated = current.filter((item) => item !== emojiId.trim());
+  saveFavoriteEmojiIds(updated);
+  return updated;
 }

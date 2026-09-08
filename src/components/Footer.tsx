@@ -64,7 +64,7 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onLanguageChange, o
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate({ view: 'popular', emojiId: undefined })}
+                  onClick={() => onNavigate({ view: 'popular', categoryId: 'popular', emojiId: undefined })}
                   className="hover:text-amber-500 dark:hover:text-amber-400 transition-colors cursor-pointer"
                 >
                   {t.navPopular}

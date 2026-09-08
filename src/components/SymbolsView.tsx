@@ -80,7 +80,7 @@ export const SymbolsView: React.FC<SymbolsViewProps> = ({ currentLang, onCopy, i
       </div>
 
       {/* Non-intrusive AdSlot */}
-      <AdSlot id="symbols-ad" className="mt-12" />
+      <AdSlot id="symbols-ad" className="mt-8 sm:mt-10" />
     </div>
   );
 };

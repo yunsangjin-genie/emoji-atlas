@@ -1,16 +1,25 @@
 import React from 'react';
 import { EmojiItem, Language } from '../types';
 import { translations } from '../locales/translations';
-import { Copy } from 'lucide-react';
+import { Copy, Star } from 'lucide-react';
 
 interface EmojiCardProps {
   emoji: EmojiItem;
   currentLang: Language;
   onCopy: (emojiChar: string) => void;
   onSelect: (emojiId: string) => void;
+  isFavorite?: boolean;
+  onToggleFavorite?: (emojiId: string) => void;
 }
 
-export const EmojiCard: React.FC<EmojiCardProps> = ({ emoji, currentLang, onCopy, onSelect }) => {
+export const EmojiCard: React.FC<EmojiCardProps> = ({
+  emoji,
+  currentLang,
+  onCopy,
+  onSelect,
+  isFavorite = false,
+  onToggleFavorite,
+}) => {
   const t = translations[currentLang];
   const displayName = emoji.names[currentLang] || emoji.names.en;
 
@@ -19,12 +28,36 @@ export const EmojiCard: React.FC<EmojiCardProps> = ({ emoji, currentLang, onCopy
       id={`emoji-card-${emoji.id}`}
       className="group relative flex flex-col items-center justify-between p-3.5 sm:p-4 rounded-2xl bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700/80 hover:border-neutral-300 dark:hover:border-neutral-600 hover:shadow-md transition-all duration-150"
     >
+      {/* Favorite Toggle Button */}
+      {onToggleFavorite && (
+        <button
+          id={`emoji-fav-btn-${emoji.id}`}
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            onToggleFavorite(emoji.id);
+          }}
+          className="absolute top-1.5 right-1.5 w-11 h-11 sm:w-8 sm:h-8 flex items-center justify-center rounded-xl text-neutral-400 hover:text-amber-500 dark:text-neutral-500 dark:hover:text-amber-400 hover:bg-neutral-100 dark:hover:bg-neutral-700/60 transition-colors cursor-pointer z-10"
+          title={isFavorite ? t.removeFromFavorites : t.addToFavorites}
+          aria-label={`${isFavorite ? t.removeFromFavorites : t.addToFavorites}: ${displayName}`}
+        >
+          <Star
+            className={`w-4 h-4 transition-transform active:scale-125 ${
+              isFavorite
+                ? 'fill-amber-400 text-amber-500 dark:text-amber-400'
+                : 'text-neutral-300 dark:text-neutral-600 group-hover:text-neutral-500 dark:group-hover:text-neutral-400'
+            }`}
+          />
+        </button>
+      )}
+
       {/* Big Emoji Clickable Area */}
       <button
-        onClick={() => onCopy(emoji.emoji)}
-        className="w-full flex flex-col items-center justify-center py-2 focus:outline-none cursor-pointer select-none group-hover:scale-105 transition-transform"
-        title={`${emoji.emoji} - ${t.clickToCopy}`}
-        aria-label={`${displayName} ${t.clickToCopy}`}
+        type="button"
+        onClick={() => onSelect(emoji.id)}
+        className="w-full flex flex-col items-center justify-center py-2 focus:outline-none cursor-pointer select-none group-hover:scale-110 transition-transform"
+        title={`${displayName} - ${t.viewDetail}`}
+        aria-label={`${displayName} ${t.viewDetail}`}
       >
         <span className="text-4xl sm:text-5xl leading-none my-1 font-emoji">
           {emoji.emoji}
@@ -33,6 +66,7 @@ export const EmojiCard: React.FC<EmojiCardProps> = ({ emoji, currentLang, onCopy
 
       {/* Name with link to detail */}
       <button
+        type="button"
         onClick={() => onSelect(emoji.id)}
         className="w-full text-center mt-2 focus:outline-none cursor-pointer group/name"
         title={t.viewDetail}
@@ -47,6 +81,7 @@ export const EmojiCard: React.FC<EmojiCardProps> = ({ emoji, currentLang, onCopy
 
       {/* Copy Button */}
       <button
+        type="button"
         onClick={(e) => {
           e.stopPropagation();
           onCopy(emoji.emoji);
